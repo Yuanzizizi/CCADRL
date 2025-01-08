@@ -25,15 +25,14 @@ Simulations demonstrate significant improvements over state-of-the-art algorithm
 
 ## Repository Status
 
-- **Code Upload in Progress**: The full implementation will be uploaded **by the end of this week**.
-- This repository will include:
+- This repository includes:
   - Evaluation scripts.
   - Simulated environments.
   - Pre-trained models and detailed documentation.
 
 ## How to Use
 
-Comprehensive instructions will be provided once the upload is complete. Check back soon for:
+Comprehensive instructions will be provided once the upload is complete.
 - Installation steps.
 - Examples for testing CCADRL.
 
