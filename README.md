@@ -32,7 +32,6 @@ Simulations demonstrate significant improvements over state-of-the-art algorithm
 
 ## How to Use
 
-Comprehensive instructions will be provided once the upload is complete.
 - Installation steps.
 - Examples for testing CCADRL.
 
