@@ -23,21 +23,49 @@ ics among neighboring agents, enriching the agents’
 
 Simulations demonstrate significant improvements over state-of-the-art algorithms in various challenging scenarios.
 
+<center> <img src="https://i-blog.csdnimg.cn/direct/8af988ab6d114b9f90143c626b02981c.png" width="100%"></center>
+
 ## Repository Status
 
 - This repository includes:
   - Evaluation scripts.
   - Simulated environments.
-  - Pre-trained models and detailed documentation.
+    
+    The [gym environment code](https://github.com/mit-acl/gym-collision-avoidance) is included as a submodule.
+
+  - Pre-trained models.
+
+    stored in path: `gym-collision-avoidance\gym_collision_avoidance\experiments\src\checkpoints`
 
 ## How to Use
 
 - Installation steps.
+  Grab the code from github, initialize submodules, install dependencies and src code
+
+  ```bash
+  # Clone either through SSH or HTTPS
+  git clone --recursive git@github.com:Yuanzizizi/CCADRL.git
+
+  ```
 - Examples for testing CCADRL.
+  ```bash
+  ./CCADRL_demo.sh
+  ``` 
 
 ## Citation
 
 If you find this repository helpful, please consider citing our paper:
+@ARTICLE{10829688, 
+  author={Du, Yuanyuan and Zhang, Jianan and Cheng, Xiang and Cui, Shuguang},
+  journal={IEEE Robotics and Automation Letters}, 
+  title={Cooperative Motion Planning in Divided Environments via Congestion-Aware Deep Reinforcement Learning}, 
+  year={2025},
+  volume={},
+  number={},
+  pages={1-8},
+  keywords={Planning;Uncertainty;Navigation;Deep reinforcement learning;Collision avoidance;Cognition;Observability;Decision making;Analytical models;Trajectory;Motion planning;collision avoidance;congestion-aware;deep reinforcement learning},
+  doi={10.1109/LRA.2025.3526448}}
+
 
 
 
