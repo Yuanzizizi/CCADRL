@@ -35,7 +35,7 @@ Simulations demonstrate significant improvements over state-of-the-art algorithm
 
   - Pre-trained models.
 
-    stored in path: `gym-collision-avoidance\gym_collision_avoidance\experiments\src\checkpoints`
+    It can be found in path: `gym-collision-avoidance\gym_collision_avoidance\experiments\src\checkpoints`
 
 ## How to Use
 
@@ -50,7 +50,8 @@ Simulations demonstrate significant improvements over state-of-the-art algorithm
 - Examples for testing CCADRL.
   ```bash
   ./CCADRL_demo.sh
-  ``` 
+  ```
+  - results can be found in `gym-collision-avoidance\gym_collision_avoidance\experiments\results`
 
 ## Citation
 
